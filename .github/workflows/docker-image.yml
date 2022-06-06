@@ -14,4 +14,4 @@ jobs:
 
     steps:
       - name: Build the Docker image
-        uses: fatjyc/push-container-registry-action@latest
+        uses: fatjyc/push-container-registry-action@69806da28207355d472f6df79a019ec7180a1613
