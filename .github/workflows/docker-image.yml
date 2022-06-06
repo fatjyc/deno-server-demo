@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Build the Docker image
-        uses: fatjyc/push-container-registry-action@8cc72408434e33abf00791268c8ee2b6d984effb
+        uses: fatjyc/push-container-registry-action@5dd509bcb171dbc5af8a82afa31ca45b175ae1ff
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           
