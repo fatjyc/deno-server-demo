@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: fatjyc/push-container-registry-action@latest
-    - name: Build the Docker image
+      - name: Build the Docker image
+        uses: fatjyc/push-container-registry-action@latest
