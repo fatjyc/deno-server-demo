@@ -15,10 +15,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
+
       - name: Build the Docker image
         uses: fatjyc/push-gcr-action@44117dd570cecafb76c7fd2c3fe67387e46bbc54
         with:
           user: fatjyc
           token: ${{ secrets.GH_TOKEN }}
-          
+
