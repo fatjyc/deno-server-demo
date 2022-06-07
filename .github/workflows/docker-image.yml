@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Build the Docker image
-        uses: fatjyc/push-gcr-action@993a2e2800bbc9f300d3623d44706b24fddb39a6
+        uses: fatjyc/push-gcr-action@19480ff644a59408e446becab35fd021b9912372
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           
