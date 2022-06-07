@@ -29,6 +29,6 @@ jobs:
       - name: update submodule
         uses: fatjyc/update-submodule-action@a2c50aa3e6d7cff2b1ce6e2a36e82adfba0596fa
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           repo_owner: fatjyc
           repo: submodule-demo
