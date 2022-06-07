@@ -21,5 +21,5 @@ jobs:
         # uses: fatjyc/push-gcr-action@5e1e8131d5ef5b274313d315c29de3d478d515a7
         uses: fatjyc/push-gcr-action@v1.0
         with:
-          user: fatjyc
+          user: fatjyc1
           token: ${{ secrets.GH_TOKEN }}
