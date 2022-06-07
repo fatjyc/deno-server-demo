@@ -19,5 +19,6 @@ jobs:
       - name: Build the Docker image
         uses: fatjyc/push-gcr-action@4a8d92996a59035f01d00a67bde060a1649d02e4
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          user: fatjyc
+          token: ${{ secrets.GH_TOKEN }}
           
