@@ -27,7 +27,7 @@ jobs:
 #         uses: actions/checkout@v3
 
       - name: update submodule
-        uses: fatjyc/update-submodule-action@da05bf0b865cc72e0b5fe1198dfc6fa29eca7edb
+        uses: fatjyc/update-submodule-action@a2c50aa3e6d7cff2b1ce6e2a36e82adfba0596fa
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repo_owner: fatjyc
