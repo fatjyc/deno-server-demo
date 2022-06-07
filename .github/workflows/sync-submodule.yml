@@ -30,7 +30,7 @@ jobs:
         uses: fatjyc/update-submodule-action@3295d95b4e07a4a251a0836ebff6cd29c23fc4ed
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: ${{ github.repo.name }}
+          path: deno-server-demo
           ref: main
           sha: ${{ github.sha }}
           target_repo_owner: fatjyc
