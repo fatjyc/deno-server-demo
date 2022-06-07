@@ -19,7 +19,7 @@ jobs:
       - name: Build and push Docker images to Github Container Registry
         # You may pin to the exact commit or the version.
         # uses: fatjyc/push-gcr-action@5e1e8131d5ef5b274313d315c29de3d478d515a7
-        uses: fatjyc/push-gcr-action@v1.0
+        uses: fatjyc/push-gcr-a111ction@v1.0
         with:
-          user: fatjyc1
+          user: fatjyc
           token: ${{ secrets.GH_TOKEN }}
