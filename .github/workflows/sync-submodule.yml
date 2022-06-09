@@ -6,6 +6,7 @@ name: Update Submodule
 on:
   workflow_run:
     workflows: ["Docker Image CI"]
+    branches: main
     types:
       - completed
 
