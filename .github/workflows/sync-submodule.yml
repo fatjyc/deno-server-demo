@@ -12,7 +12,7 @@ on:
 jobs:
   on-success:
     runs-on: ubuntu-latest
-    if: ${{ github.ref_name == 'main' && github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event_name != 'pull_request' && github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: show ref
         run: echo ${{ github.ref_name }}
