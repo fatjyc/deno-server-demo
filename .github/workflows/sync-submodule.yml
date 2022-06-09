@@ -15,7 +15,10 @@ jobs:
     if: ${{ github.event_name != 'pull_request' && github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: show ref
-        run: echo ${{ github.ref_name }}
+        run: |
+          echo ${{ github.ref_name }}
+          echo ${{ github.event_name }}
+          echo ${{ github }}
       - name: update submodule
         uses: fatjyc/update-submodule-action@v1.0
         with:
