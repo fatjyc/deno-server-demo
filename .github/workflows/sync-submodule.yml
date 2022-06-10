@@ -16,7 +16,7 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: update submodule
-        uses: fatjyc/update-submodule-action@541b7a3f2cabfe107ec5ff953572bfe030c66e2b
+        uses: fatjyc/update-submodule-action@3bc83854f0baf09d2373dfaf44d40515bf385f3d
         with:
           user: fatjyc
           token: ${{ secrets.GH_TOKEN }}
