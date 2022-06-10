@@ -25,5 +25,5 @@ jobs:
           committor_username: xxx
           committor_email: xxx@xxx.com
           target_branch: main
-          path: ${{ github.repo.repo }}
+          path: deno-server-demo
           
